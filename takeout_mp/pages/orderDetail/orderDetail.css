@@ -1,0 +1,293 @@
+.order {
+  height: 100%;
+}
+
+.order .divHead {
+  width: 100%;
+  height: 120rpx;
+  opacity: 1;
+  background: #333333;
+  position: relative;
+}
+
+.order .divHead .divTitle {
+  font-size: 36rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  line-height: 50rpx;
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 36rpx;
+  width: 100%;
+}
+
+.order .divHead .divTitle i {
+  position: absolute;
+  left: 32rpx;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.order .divBody {
+  margin: 20rpx 24rpx 20rpx 24rpx;
+  background: #ffffff;
+  border-radius: 12rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 100vh;
+  /* overflow-y: auto; */
+}
+
+.order .divBody .u-list .u-list-item .u-cell::after {
+  border: 0;
+}
+
+.order .divBody .item .timeStatus {
+  height: 92rpx;
+  line-height: 32rpx;
+  font-size: 40rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #f9ae3d;
+  line-height: 40rpx;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4rpx dashed #efefef;
+  border-top: 2rpx solid #efefef;
+}
+
+.order .divBody .item .timeStatus text:first-child {
+  color: #333333;
+  font-size: 40rpx;
+}
+
+.order .divBody .item .dishList {
+  padding-top: 20rpx;
+  padding-bottom: 22rpx;
+  font-size: 40rpx;
+}
+
+/* .order .divBody .item .dishList .item {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  height: 200rpx;
+  opacity: 1;
+  font-size: 30rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #666666;
+  line-height: 40rpx;
+  letter-spacing: 0;
+} */
+
+.order .divBody .item .result {
+  display: flex;
+  justify-content: flex-end;
+  height: 40rpx;
+  opacity: 1;
+  font-size: 28rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #666666;
+  line-height: 40rpx;
+}
+.order .divBody .item .result .num {
+/*  font-weight: bold; */
+  font-size: 40rpx;
+/*  color: #000000; */
+}
+.order .divBody .item .result .price {
+  font-weight: bold;
+  font-size: 40rpx;
+  color: #e94e3c;
+}
+
+.order .divBody .item .btn {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-bottom: 34rpx; */
+  margin-top: 20rpx;
+}
+.order .divBody .item .foot {
+	height: 40rpx;
+}
+.order .divBody .item .foot .btnDel {
+  width: 140rpx;
+  height: 50rpx;
+  opacity: 1;
+  border: 2rpx solid #ff0000;
+  border-radius: 28rpx;
+  opacity: 1;
+  font-size: 28rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 300;
+  text-align: center;
+  color: #ff0000;
+  line-height: 52rpx;
+  letter-spacing: 0;
+  position: relative;
+}
+
+.order .divBody .btn .btnAgain {
+  width: 248rpx;
+  height: 72rpx;
+  opacity: 1;
+  border: 2rpx solid #ffa02c;
+  border-radius: 38rpx;
+  opacity: 1;
+  font-size: 38rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+  line-height: 72rpx;
+  letter-spacing: 0;
+  position: relative;
+}
+
+.order .divNoData {
+  width: 100%;
+  height: calc(100% - 176rpx);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order .divNoData .divContainer image {
+  width: 480rpx;
+  height: 258rpx;
+}
+
+.order .divNoData .divContainer view {
+  font-size: 48rpx;
+  font-family: PingFangSC, PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+  line-height: 66rpx;
+  height: 66rpx;
+  margin-top: 40rpx;
+}
+
+
+.order .divBody .item .dishList .item {
+  display: flex;
+}
+
+.order .divBody .item .dishList .item .u-image1 {
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.order .divBody .item .dishList .item .u-image image {
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.order .divBody .item .dishList .item:first-child .desc {
+  border: 0;
+}
+
+.order .divBody .item .dishList .item .desc {
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-top: 4rpx solid #ebeef5;
+  width: calc(100% - 128rpx);
+}
+
+.order .divBody .item .dishList .item .desc .name {
+  height: 44rpx;
+  opacity: 1;
+  font-size: 32rpx;
+  font-family: PingFangSC, PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  color: #20232a;
+  line-height: 44rpx;
+  letter-spacing: 0;
+  margin-left: 20rpx;
+  margin-bottom: 32rpx;
+}
+.order .divBody .item .dishList .item .desc .numPrice {
+  height: 44rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order .divBody .item .dishList .item .desc .numPrice text {
+  margin-left: 24rpx;
+  height: 40rpx;
+  opacity: 1;
+  font-size: 28rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #818693;
+  line-height: 40rpx;
+  letter-spacing: 0;
+  display: inline-block;
+}
+
+.order .divBody .item .dishList .item .desc .numPrice .price {
+  font-size: 40rpx;
+  font-family: DIN, DIN-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #e94e3c;
+}
+/* .order .divBody .item .info {
+  height: 328rpx;
+  background: 	#ffffff;
+  border-radius: 12rpx;
+  margin-top: 22rpx;
+  padding: 6rpx 20rpx 20rpx 22rpx;
+} */
+.order .divBody .item .info .title{
+  font-size: 40rpx;
+  font-family: DIN, DIN-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+  }
+    
+.order .divBody .item .info .divLinks .item {
+    font-size: 30rpx;
+    height: 92rpx;
+    line-height: 102rpx;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+.order .divBody .item .info .divLinks .divSplit {
+    height: 2rpx;
+    opacity: 1;
+    background-color: #000000;
+    border: 0;
+  }
+  
+.order .divBody .item .info .divLinks .item image {
+    width: 36rpx;
+    height: 36rpx;
+    margin-right: 20rpx;
+	
+  }
+  
+.order .divBody .item .info .divLinks .item view {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
