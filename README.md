@@ -1,12 +1,6 @@
 ## 项目介绍
 
 <p align=center>
-  <a href="https://github.com/yx159247">
-    <img src="https://avatars.githubusercontent.com/u/78630698?v=4" alt="David's Github" style="border-radius: 50%;height: 185px;width: 185px">
-  </a>
-</p>
-
-<p align=center>
    基于Springboot + Vue 开发的前后端分离外卖点单系统
 </p>
 
