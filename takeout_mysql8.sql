@@ -366,6 +366,7 @@ CREATE TABLE `orders`  (
   `address` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL,
   `user_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL,
   `consignee` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL,
+  `discount` decimal(10, 2) NOT NULL COMMENT '优惠金额',
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '订单表' ROW_FORMAT = Dynamic;
 
@@ -1414,6 +1415,9 @@ CREATE TABLE `user`  (
   `create_date` datetime(0) NULL DEFAULT NULL COMMENT '创建时间',
   `updater` bigint(0) NULL DEFAULT NULL COMMENT '更新者',
   `update_date` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
+  `is_get_coupon` tinyint(0) NULL DEFAULT 0 COMMENT '是否已经领取每日优惠券',
+  `get_coupon_day` datetime(0) NULL DEFAULT NULL COMMENT '获取每日优惠券时间',
+
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '用户信息' ROW_FORMAT = Dynamic;
 
