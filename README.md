@@ -128,9 +128,14 @@ take_out
 
 ## 项目截图
 
-![image](https://github.com/jjc817/take_out/blob/v1.0/pic/132D455315DE77836403E9CBF9A33683.png)
-![image](https://user-images.githubusercontent.com/78630698/174472624-1a0ee932-8320-4822-9d35-e047db6eddb3.png)
-![image](https://user-images.githubusercontent.com/78630698/174472629-290d4791-683b-48c5-9a9f-4d361d843db1.png)
+![image](pic/2B32B3799D7D923895D9FE8C6D0EBA7E.png)
+![image](pic/2DD573380C2AE8FCA3AF027CD77459D3.png)
+![image](pic/6ED2600DF1B48394AC4D3B6053C92852.png)
+![image](pic/132D455315DE77836403E9CBF9A33683.png)
+![image](pic/8326C6722EE76BD016ACF93E2B8C2AE8.png)
+![image](pic/51833552E9281C79640DD78361158AC0.png)
+![image](pic/F273B6113E57458F9993EF5D6CAD4205.png)
+![image](pic/FFDCA0DC783270F5B26198EDD86745C7.png)
 ![image](https://user-images.githubusercontent.com/78630698/187065050-6382f8fd-7f62-4921-8474-aa438b519e0b.png)
 ![image](https://user-images.githubusercontent.com/78630698/187065081-ce95050e-39cd-4e3f-9e03-3e5fbcfa86e6.png)
 
