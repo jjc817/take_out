@@ -126,14 +126,6 @@ take_out
 | Redis    | 6.0.5  |
 | Maven    | 3.8    |
 
-## 项目截图
-
-![image](https://user-images.githubusercontent.com/78630698/174472611-aca5b2e1-b48e-4af6-9ed6-710d46a79a0f.png)
-![image](https://user-images.githubusercontent.com/78630698/174472624-1a0ee932-8320-4822-9d35-e047db6eddb3.png)
-![image](https://user-images.githubusercontent.com/78630698/174472629-290d4791-683b-48c5-9a9f-4d361d843db1.png)
-![image](https://user-images.githubusercontent.com/78630698/187065050-6382f8fd-7f62-4921-8474-aa438b519e0b.png)
-![image](https://user-images.githubusercontent.com/78630698/187065081-ce95050e-39cd-4e3f-9e03-3e5fbcfa86e6.png)
-
 
 ## 快速开始
 
