@@ -42,9 +42,9 @@ spring:
       enabled: true
   redis:
     database: 0
-    host: 192.168.159.135
+    host: localhost
     port: 6379
-    password: jjc0817.
+#    password: jjc0817.
     timeout: 6000ms  # 连接超时时长（毫秒）
     jedis:
       pool:
@@ -81,6 +81,9 @@ mybatis-plus:
     boolValue: TRUE
 
 weixin:
+#  getPhoneNumberUrl: https://api.weixin.qq.com/wxa/business/getuserphonenumber?access_token=
+#  getAccessTokenUrl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&
+#  jscode2sessionUrl: https://api.weixin.qq.com/sns/jscode2session
   getPhoneNumberUrl: https://api.weixin.qq.com/wxa/business/getuserphonenumber
   getAccessTokenUrl: https://api.weixin.qq.com/cgi-bin/token
   jscode2sessionUrl: https://api.weixin.qq.com/sns/jscode2session

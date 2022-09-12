@@ -8,7 +8,7 @@ import io.renren.common.dto.AddressBookDTO;
 
 import io.renren.common.entity.AddressBookEntity;
 import io.renren.common.service.AddressBookService;
-import io.renren.common.utils.Result;
+import io.renren.common.service.impl.CrudServiceImpl;
 import io.renren.common.utils.UserUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

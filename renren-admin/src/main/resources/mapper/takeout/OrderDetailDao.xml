@@ -13,7 +13,6 @@
         <result property="dishFlavor" column="dish_flavor"/>
         <result property="number" column="number"/>
         <result property="amount" column="amount"/>
-
     </resultMap>
 
 

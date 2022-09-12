@@ -1418,6 +1418,23 @@ CREATE TABLE `user`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '用户信息' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
+-- Table structure for coupon
+-- ----------------------------
+DROP TABLE IF EXISTS `coupon`;
+CREATE TABLE `coupon`  (
+  `id` bigint(0) NOT NULL COMMENT 'id',
+  `name` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '名称',
+  `coupon_describe` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '描述',
+  `status` tinyint(0) NULL DEFAULT 1 COMMENT '状态 1：可使用 2：已使用 3：已过期',
+  `user_id` bigint(0) NOT NULL COMMENT '该优惠券的用户id',
+  `preferential_amount` decimal(10, 2) NOT NULL COMMENT '优惠金额',
+  `required_amount` decimal(10, 2) NOT NULL COMMENT '需要金额',
+  `start_time` datetime(0) NULL DEFAULT NULL COMMENT '创建时间',
+  `expire_time` datetime(0) NOT NULL COMMENT '过期时间',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '用户信息' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES (1521742698082504705, '测试', '13913246578', 1, '500113200111115231', '123', 1, '123', '测试', 1521742698082504705, '2022-05-07 20:22:14', 1521742698082504705, '2022-08-15 11:04:28');

@@ -8,7 +8,6 @@
 
 package io.renren.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import io.renren.common.service.impl.BaseServiceImpl;
 import io.renren.dao.TokenDao;
 import io.renren.entity.TokenEntity;

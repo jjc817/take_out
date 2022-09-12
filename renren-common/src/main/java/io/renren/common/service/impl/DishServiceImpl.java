@@ -6,12 +6,13 @@ import io.renren.common.dto.DishDTO;
 import io.renren.common.redis.RedisKeys;
 import io.renren.common.dao.CategoryDao;
 import io.renren.common.dao.DishDao;
-import io.renren.common.dao.DishFlavorDao;
+import io.renren.common.convert.DishFlavorDao;
 
 import io.renren.common.entity.CategoryEntity;
 import io.renren.common.entity.DishEntity;
 import io.renren.common.entity.DishFlavorEntity;
 import io.renren.common.service.DishService;
+import io.renren.common.service.impl.CrudServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +31,7 @@ import java.util.Map;
  * @since 1.0.0 2022-08-17
  */
 @Service
-public class DishServiceImpl extends CrudServiceImpl<DishDao, DishEntity, DishDTO>  implements DishService {
+public class DishServiceImpl extends CrudServiceImpl<DishDao, DishEntity, DishDTO> implements DishService {
 
     @Autowired
     private DishDao dishDao;

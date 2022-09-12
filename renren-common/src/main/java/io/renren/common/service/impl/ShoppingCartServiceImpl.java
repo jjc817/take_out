@@ -7,6 +7,7 @@ import io.renren.common.dto.ShoppingCartDTO;
 
 import io.renren.common.entity.ShoppingCartEntity;
 import io.renren.common.service.ShoppingCartService;
+import io.renren.common.service.impl.CrudServiceImpl;
 import io.renren.common.utils.UserUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

@@ -3,9 +3,9 @@ spring:
     druid:
       #MySQL
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/takeout?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
-      username: renren
-      password: 123456
+      url: jdbc:mysql://43.143.72.204:3306/takeout?useUnicode=true&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+      username: jjc
+      password: LFaXnmdcJ8jNMF5b
       initial-size: 10
       max-active: 100
       min-idle: 10
@@ -32,3 +32,13 @@ spring:
         wall:
           config:
             multi-statement-allow: true
+# Minio配置
+minio:
+  # minio配置的地址，端口9000
+  url: http://43.143.72.204:9000
+  # 账号
+  accessKey: minio
+  # 密码
+  secretKey: minio123
+  # MinIO桶名字
+  bucketName: images

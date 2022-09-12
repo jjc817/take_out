@@ -6,6 +6,7 @@ import io.renren.common.dto.SetmealDishDTO;
 
 import io.renren.common.entity.SetmealDishEntity;
 import io.renren.common.service.SetmealDishService;
+import io.renren.common.service.impl.CrudServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

@@ -13,7 +13,6 @@ import io.renren.common.entity.UserEntity;
 import io.renren.common.service.BaseService;
 import io.renren.dto.LoginDTO;
 
-import java.util.Date;
 import java.util.Map;
 
 /**

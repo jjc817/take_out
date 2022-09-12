@@ -1,5 +1,5 @@
-const baseUrl = "http://localhost:8081/api";
-//const baseUrl = "http://192.168.43.189:8081/api";
+//const baseUrl = "http://localhost:8081/api";
+const baseUrl = "http://43.143.72.204:8081/api";
 // const baseUrl = "http://192.168.159.1:8081/api";
 
 export const getBaseUrl = () =>{

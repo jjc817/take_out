@@ -357,6 +357,7 @@
 			},
 			async logout() {
 				console.log("userId={}",wx.getStorageSync('userId'))
+				wx.clearStorage()
 				const res = await logoutApi({
 				})
 				if(res.code === 0){

@@ -3,6 +3,7 @@ package io.renren.common.service;
 import io.renren.common.dto.OrderDetailDTO;
 
 import io.renren.common.entity.OrderDetailEntity;
+import io.renren.common.service.CrudService;
 
 
 import java.util.List;

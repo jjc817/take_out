@@ -2,7 +2,6 @@ package io.renren.controller;
 
 import io.renren.annotation.Login;
 import io.renren.common.dto.CategoryDTO;
-import io.renren.common.entity.CategoryEntity;
 import io.renren.common.service.CategoryService;
 import io.renren.common.utils.Result;
 import io.swagger.annotations.Api;

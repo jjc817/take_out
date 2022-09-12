@@ -9,8 +9,6 @@
 package io.renren.service.impl;
 
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.http.HttpRequest;
-import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
