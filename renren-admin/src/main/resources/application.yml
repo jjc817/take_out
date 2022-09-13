@@ -24,7 +24,7 @@ knife4j:
 spring:
   # 环境 dev|test|prod
   profiles:
-    active: dev
+    active: prod
   messages:
     encoding: UTF-8
     basename: i18n/messages
@@ -38,9 +38,9 @@ spring:
       enabled: true
   redis:
     database: 0
-    host: 192.168.159.135
+    host:
     port: 6379
-    password: jjc0817.   # 密码（默认为空）
+    password:    # 密码（默认为空）
     timeout: 6000ms  # 连接超时时长（毫秒）
     jedis:
       pool:

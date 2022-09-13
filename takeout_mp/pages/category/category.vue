@@ -11,7 +11,7 @@
 
 					<view class="divSend">
 						<image src="../../static/images/time.png" /><text>距离1.5km</text>
-						<image src="../../static/images/money.png" /><text>配送费6元</text>
+						<image src="../../static/images/money.png" /><text>免配送费</text>
 						<image src="../../static/images/location.png" /><text>预计时长12min</text>
 					</view>
 				</view>

@@ -40,4 +40,6 @@ public interface DishService extends CrudService<DishEntity, DishDTO> {
      * @return
      */
     List<DishDTO> findDishByCategoryId(DishDTO dishDTO);
+
+    void updateStatus(Long[] ids);
 }

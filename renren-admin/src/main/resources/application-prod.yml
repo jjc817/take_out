@@ -4,8 +4,8 @@ spring:
       #MySQL
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://43.143.72.204:3306/takeout?useUnicode=true&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
-      username: jjc
-      password: LFaXnmdcJ8jNMF5b
+      username:
+      password:
       initial-size: 10
       max-active: 100
       min-idle: 10
@@ -35,7 +35,7 @@ spring:
 # Minio配置
 minio:
   # minio配置的地址，端口9000
-  url: http://43.143.72.204:9000
+  url:
   # 账号
   accessKey: minio
   # 密码

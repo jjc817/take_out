@@ -140,4 +140,16 @@ public class DishServiceImpl extends CrudServiceImpl<DishDao, DishEntity, DishDT
 
         return dishDtoList;
     }
+
+    @Override
+    public void updateStatus(Long[] ids) {
+        for (Long id : ids) {
+            DishEntity dishEntity = dishDao.selectById(id);
+            if (dishEntity.getStatus() == 1)
+                dishEntity.setStatus(0);
+            else if (dishEntity.getStatus() == 0)
+                dishEntity.setStatus(1);
+            dishDao.updateById(dishEntity);
+        }
+    }
 }
